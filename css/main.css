@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+
+/*Estableciendo estilos a div principal*/
+.background{
+  background-image: url('../assets/img/night.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  text-align: center;
+}
+.inline-block{
+  display: inline-block;
+}
+.cat{
+  width: inherit;
+  text-align: center;
+}
